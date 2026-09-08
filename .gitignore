@@ -1,0 +1,14 @@
+# Bỏ qua file cấu hình của các phần mềm tạo host ảo (như XAMPP, Laragon)
+.htaccess
+config.php
+
+# Bỏ qua thư mục thư viện quản lý gói của PHP (sau này học đến Composer sẽ có)
+vendor/
+
+# Bỏ qua file cấu hình của trình soạn thảo code
+.vscode/
+.idea/
+
+# Bỏ qua file rác tự sinh của hệ điều hành
+.DS_Store
+Thumbs.db
