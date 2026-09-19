@@ -5,7 +5,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #5c5757;
+    background-color: #c0bcbc;
 }
 .navbar {
     display:flex;   
@@ -13,20 +13,21 @@ body {
     width: 100%;
     background-color: #4380f1;
     align-items: center;
-    padding: 0 5%;
+    padding: 0 1%;
+    box-shadow: 0 8px 16px rgba(92, 187, 255, 0.5);
     
 }
 .logo {
     display: flex;
-    width: 20%;
-    height: 20%;
-    border-radius: 50%;
+    height: 50%;
+    img {
+        border-radius: 50%;
+    }
 }
 .nav-links {
     display: flex;
+    flex-direction: row;
     list-style: none;
-    /* align-items: left; */
-    text-align: center;
 
     li {
         align-items: left;
