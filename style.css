@@ -28,6 +28,7 @@ body {
     display: flex;
     flex-direction: row;
     list-style: none;
+    margin-right: 2%;
 
     li {
         align-items: left;
