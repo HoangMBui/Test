@@ -26,6 +26,7 @@ body {
 }
 .nav-links {
     display: flex;
+    flex: 1;
     flex-direction: row;
     list-style: none;
     margin-right: 2%;
@@ -48,6 +49,29 @@ body {
         }
     }
 }
+
+.darkmode-toggle {
+    display: flex;
+    background: none;
+    border: none;
+    cursor: pointer;
+    img {
+        width: 30px;
+        height: 30px;
+        border-radius: 70%;
+    }   
+}
+
+footer {
+    background-color: #4380f1;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
 @keyframes fadeIn {
     from {
         opacity: 1;
